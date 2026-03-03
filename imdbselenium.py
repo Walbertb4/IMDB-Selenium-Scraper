@@ -18,7 +18,7 @@ class IMDB:
 
     def captcha(self):
         if "/ap/cvf/request" in self.browser.current_url:
-            input("Captcha tespit edildi lütfen çözün.\n(Devam için herhangi bir tuşa basın.)\n")
+            input("Captcha detected, please solve it.\n(Press any key to continue.)")
 
     def gowatchlist(self):
         self.browser.get("https://www.imdb.com/list/watchlist")
